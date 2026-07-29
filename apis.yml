@@ -1,7 +1,32 @@
 aid: jumo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jumo.png
 name: Jumo
-description: 'Jumo is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  JUMO is a Cape Town-based banking-as-a-service (BaaS) platform, founded in 2015,
+  that uses artificial intelligence to power digital credit and savings products for
+  banks, mobile network operators, and payments providers across emerging markets in
+  Africa. Its infrastructure has two foundational capabilities: Core, an end-to-end
+  next-generation banking platform that replaces legacy core banking with no build
+  cost, and Unify, an AI processor that transforms alternative data (such as GSM
+  records and mobile wallet transactions) to reduce the cost and risk of lending.
+  JUMO delivers financial services through partners including Airtel, MTN Group,
+  Orange Money Group, and Mukuru, and has disbursed over USD 8 billion to more than
+  31 million people across Ghana, Kenya, Tanzania, Zambia, Uganda, Cote d'Ivoire,
+  South Africa, Benin, and Cameroon. It is a certified B Corporation backed by
+  investors including Anthemis, LeapFrog Investments, Fidelity Management, and Visa.
+  JUMO's APIs and integrations are provided privately to regulated financial-institution
+  partners rather than through a public developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/jumo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +36,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Banking as a Service
+- Financial Services
+- Lending
+- Credit
+- Mobile Money
+- Payments
+- Africa
+- Emerging Markets
+- Artificial Intelligence
 apis: []
+common:
+- type: Website
+  url: https://jumo.world/
+- type: About
+  url: https://jumo.world/about-us/
+- type: Support
+  url: https://jumo.world/contact/
+- type: PrivacyPolicy
+  url: https://jumo.world/privacy-policy/
+- type: TermsOfService
+  url: https://jumo.world/terms-of-use/
+- type: GitHubOrganization
+  url: https://github.com/jumo
+- type: LinkedIn
+  url: https://za.linkedin.com/company/jumo-world
+- type: Careers
+  url: https://jumo.world/careers/
+- type: DomainSecurity
+  url: security/jumo-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
