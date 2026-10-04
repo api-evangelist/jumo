@@ -52,7 +52,7 @@ tags:
 - Company
 - Fintech
 - Banking as a Service
-- Financial-Services
+- Financial Services
 - Lending
 - Credit
 - Mobile Money
@@ -72,6 +72,7 @@ tags_raw:
 - Africa
 - Emerging Markets
 - Artificial Intelligence
+- Financial-Services
 apis: []
 common:
 - type: Website
